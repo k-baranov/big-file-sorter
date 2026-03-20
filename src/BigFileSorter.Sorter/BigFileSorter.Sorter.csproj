@@ -9,6 +9,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <InternalsVisibleTo Include="BigFileSorter.Tests" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\BigFileSorter.Core\BigFileSorter.Core.csproj" />
   </ItemGroup>
 
